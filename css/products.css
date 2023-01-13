@@ -1,0 +1,10 @@
+.crafted__text p {
+    background-color:rgb(14, 155, 59);
+}
+
+
+header-menu {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
