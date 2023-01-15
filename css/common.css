@@ -11,12 +11,11 @@
 :root {
     font-family: 'Lato', sans-serif;
     --text-color: black;
-    --accent-color: #eee;
     --background-color: #eee;
     --border-color: black;
-    --accent-color: #eee;
+    --accent-color: rgb(179, 172, 172);
     --box-color: darkorange;
-    --logo-color: darkorange;
+    --card-color: rgb(188, 231, 245);
     scroll-behavior: smooth;
 }
 
@@ -88,7 +87,6 @@ h2 {
     .character-menu {
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
         flex: 1;
     }
 }
@@ -98,7 +96,7 @@ h2 {
     align-items: center;
     justify-content: center;
     height: 125px;
-    width: 130px;
+    min-width: 130px;
 }
 iframe {
     height: 315px;
@@ -111,11 +109,12 @@ iframe {
     border-style: inset;
     border-color: initial;
     border-image: initial;
+    margin: auto;
 }
 
 .main__video {
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
     display: flex;
+    background-color: var(--background-color);
+    min-height: 400px;
 }
