@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,8 +11,13 @@
 :root {
     font-family: 'Lato', sans-serif;
     --text-color: black;
+    --accent-color: #eee;
     --background-color: #eee;
-    --border-color: #eee;
+    --border-color: black;
+    --accent-color: #eee;
+    --box-color: darkorange;
+    --logo-color: darkorange;
+    scroll-behavior: smooth;
 }
 
 .separator {
@@ -19,4 +25,97 @@
     height: 2px;
     border: 2px solid var(--title-color);
     margin: auto;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+img {
+    display: block;
+}
+
+.main__banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/trombone.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-bottom: 24px;
+    word-wrap: break-word;
+    font-weight: bold;
+
+}
+
+.main__banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main__characters {
+    background-color: var(--background-color);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h2 {
+   font-size: 24px; 
+}
+
+@media (min-width: 500px) {
+    .character-menu {
+        display: flex;
+    }
+    .character-menu {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+    }
+}
+
+.character-menu__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 130px;
+}
+iframe {
+    height: 315px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    max-width: 560px;
+    width: 100%;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.main__video {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
 }

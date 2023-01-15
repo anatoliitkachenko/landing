@@ -1,0 +1,41 @@
+.form__email {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    background-color: field;
+    padding: 5px 10px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: var(--border-color);
+    border-image: initial;
+    min-width: 200px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.button {
+    background-color: var(--box-color);
+    padding: 5px 10px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: var(--border-color);
+    border-image: initial;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+}

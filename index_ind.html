@@ -24,98 +24,104 @@
         </nav>
     </header>
 
-    <div class="separator"></div>
-
     <main>
         <section class="main__banner">
             <h1>Handcrafted, home-made masterpieces</h1>
+
             <div class="main__form">
                 <form action="#enteremail">
-                    <input type="text" placeholder="Enter your email address">
-                    <button type="submit">GET STARTED</button>
+                    <input class="form__email" id="email" type="text" placeholder="Enter your email address">
+                    <input class="button" id="button" type="submit" value="GET STARTED"></input>
                 </form>
             </div>
         </section>
-        <section class="characters">
+        <section class="main__characters">
             <div class="character-menu">
-                <h2 id="title">Premium Materials</h2>
-                <p class="text__title">Our trombones use the shiniest brass which is sourced locally. This will increase
-                    the
-                    longevity of your
-                    purchase.</p>
-                <a href="#materials">
-                    <img id="materials" src="img/materials_logo.png" alt="logo materials">
-                </a>
+                <div class="character-menu__logo">
+                    <a class="characters-logo" href="#materials">
+                        <img id="img-logo" src="img/materials_logo.png" alt="logo materials">
+                    </a>
+                </div>
+                <div class="character-menu__title">
+                    <h2>Premium Materials</h2>
+                    <p class="text__title">Our trombones use the shiniest brass which is sourced locally. This will
+                        increase the longevity of your purchase.</p>
+                </div>
             </div>
             <div class="character-menu">
-                <h2 id="title">Fast Shipping</h2>
-                <p class="text__title">We make sure you recieve your trombone as soon as we have finished making it. We
-                    also provide free returns if you are not satisfied.</p>
-                <a href="#shipping">
-                    <img id="shipping_free" src="img/shipping_logo.png" alt="logo shipping">
-                </a>
+                <div class="character-menu__logo">
+                    <a class="characters-logo" href="#shipping">
+                        <img id="img-logo" src="img/shipping_logo.png" alt="logo shipping">
+                    </a>
+                </div>
+                <div class="character-menu__title">
+                    <h2>Fast Shipping</h2>
+                    <p class="text__title">We make sure you recieve your trombone as soon as we have finished making it.
+                        We also provide free returns if you are not satisfied.</p>
+                </div>
             </div>
             <div class="character-menu">
-                <h2 id="title">Quality Assurance</h2>
-                <p class="text__title">For every purchase you make, we will ensure there are no damages or faults and we
-                    will check and test the
-                    pitch of your instrument.
-                </p>
-                <a href="#quality">
-                    <img id="quality" src="img/battery_logo.png" alt="logo quality">
-                </a>
+                <div class="character-menu__logo">
+                    <a class="characters-logo" href="#quality">
+                        <img id="img-logo" src="img/battery_logo.png" alt="logo quality">
+                    </a>
+                </div>
+                <div class="character-menu__title">
+                    <h2>Quality Assurance</h2>
+                    <p class="text__title">For every purchase you make, we will ensure there are no damages or faults
+                        and we will check and test the pitch of your instrument.</p>
+                </div>
             </div>
         </section>
 
-        <section class="video">
+        <section class="main__video">
             <iframe id="video" height="315"
                 src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
                 frameborder="0" allowfullscreen=""></iframe>
         </section>
 
+        <section class="main__payment" id="price">
+            <div class="product" id="tenor">
+                <div class="level">Tenor Trombone</div>
+                <h2>$600</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <form action="#tenor">
+                    <button class="button">Select</button>
+                </form>
+            </div>
+            <div class="product" id="bass-trambone">
+                <div class="level">Bass Trombone</div>
+                <h2>$900</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <form action="#bass">
+                    <button class="button">Select</button>
+                </form>
+            </div>
+            <div class="product" id="valve">
+                <div class="level">Valve Trombone</div>
+                <h2>$1200</h2>
+                <ol>
+                    <li>Plays similar to a Trumpet</li>
+                    <li>Great for Jazz Bands</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <form action="#valve">
+                    <button class="button">Select</button>
+                </form>
+            </div>
+        </section>
     </main>
-
-    <section class="payment" id="price">
-        <div class="product" id="tenor">
-            <div class="level">Tenor Trombone</div>
-            <h2>$600</h2>
-            <ol>
-                <li>Lorem ipsum.</li>
-                <li>Lorem ipsum.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum.</li>
-            </ol>
-            <form action="#tenor">
-                <button class="button">Select</button>
-            </form>
-        </div>
-        <div class="product" id="bass-trambone">
-            <div class="level">Bass Trombone</div>
-            <h2>$900</h2>
-            <ol>
-                <li>Lorem ipsum.</li>
-                <li>Lorem ipsum.</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum.</li>
-            </ol>
-            <form action="#bass">
-                <button class="button">Select</button>
-            </form>
-        </div>
-        <div class="product" id="valve">
-            <div class="level">Valve Trombone</div>
-            <h2>$1200</h2>
-            <ol>
-                <li>Plays similar to a Trumpet</li>
-                <li>Great for Jazz Bands</li>
-                <li>Lorem ipsum dolor.</li>
-                <li>Lorem ipsum.</li>
-            </ol>
-            <form action="#valve">
-                <button class="button">Select</button>
-            </form>
-        </div>
-    </section>
 
     <footer class="footer">
         <ul>

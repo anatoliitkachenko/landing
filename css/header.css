@@ -1,6 +1,5 @@
 header {
-    background-color:var(--background-color);
-    color: var(--text-color);
+    background-color: var(--background-color);
     text-transform: uppercase;
     padding: 5px;
 }
