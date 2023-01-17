@@ -1,14 +1,16 @@
 .main-products__list {
     background-color: var(--background-color);
 }
+
 .product-card {
     border: 1px solid var(--border-color);
     padding: 5px;
-margin: 20px 10px 20px 10px;
+    margin: 20px 10px 20px 10px;
     background-color: var(--card-color);
     text-align: center;
     min-height: 250px;
 }
+
 .product-card img {
     display: block;
     width: 100%;
@@ -16,6 +18,7 @@ margin: 20px 10px 20px 10px;
     margin: auto;
     object-fit: cover;
 }
+
 @media (min-width: 600px) {
     .main-products__list {
         display: grid;
@@ -23,6 +26,7 @@ margin: 20px 10px 20px 10px;
         gap: 10px;
     }
 }
+
 @media (min-width: 800px) {
     .main-products__list {
         grid-template-columns: 1fr 1fr 1fr;
