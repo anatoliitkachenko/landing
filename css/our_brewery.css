@@ -27,7 +27,7 @@
     margin-bottom: 20px;
 }
 
-.separator {
+.our-brewery__separator {
     font-size: 14px;
     color: rgb(248, 184, 3);
 }
@@ -52,9 +52,6 @@
     font-family: 'Rubik', sans-serif;
 }
 
-img {
-    background-color: #f4eee1;
-}
 .our-brewery__gallery-container {
     margin-top: 50px;
 }
@@ -62,8 +59,6 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    display: flex;
-    flex-direction: column;
     border-style: inset;
     border-color: initial;
     border-image: initial;
@@ -71,4 +66,16 @@ img {
     max-width: 1000px;
     margin: 0 auto;
     width: 100%;
+}
+
+.separator-wave {
+    background-color: #f4eee1;
+}
+
+@media (min-width: 400px) {
+    .our-brewery__gallery-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
 }
